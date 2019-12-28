@@ -1,0 +1,59 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+*.js
+*.js.map
+!site.js
+!webpack.prod.js
+!webpack.dev.js
+!webpack.config.js
+!webpack.helper.js
+!webpack.*
+/aot
+
+/appsettings.Development.json
+/appsettings.json
+
+#Css Files
+*.css.map
+*.min.css
+!/wwwroot/css/account.min.css
+!/wwwroot/css/font-awesome.min.css
+!/wwwroot/js/fontawesome.js
+!/wwwroot/js/inner.site.js
+!common-style.min.css
+
+
+/wwwroot/assets-gen
+.awcache
+/Visualogyx-admin/**/*.json
